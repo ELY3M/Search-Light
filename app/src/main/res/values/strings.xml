@@ -16,6 +16,7 @@ limitations under the License.
 -->
 <resources>
     <string name="app_name">Search Light</string>
+    <string name="dialog_camera_perm">The camera needs permission :(</string>
     <string name="dialog_camera_na">The camera is in use by another application</string>
     <string name="dialog_ok">OK</string>
     <string name="black">Black Screen</string>

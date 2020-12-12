@@ -150,6 +150,11 @@ public class PreviewSurface extends SurfaceView implements SurfaceHolder.Callbac
     }
     
     public void initCamera() {
+
+
+
+
+
     	if (!hasCamera) {
 			try {
 		    	mCamera = Camera.open();

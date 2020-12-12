@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "27.0.3"
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
 
     defaultConfig {
         applicationId "com.scottmain.android.searchlight"
-        minSdkVersion 14
-        targetSdkVersion 23
+        minSdkVersion 16
+        targetSdkVersion 29
     }
 
     buildTypes {
@@ -19,5 +19,46 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:26.0.0-alpha1'
+    /*Compile 'com.android.support:support-v4:jar:28.0.0'*/
+    implementation 'com.android.support:support-compat:28.0.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+
+    //implementation 'androidx.appcompat:appcompat:1.1.0'
+    ///implementation ''
+    //implementation 'androidx.fragment:fragment:1.1.0'
+
+
+    /*
+
+androidx.appcompat:appcompat:1.1.0
+androidx.core:core:1.1.0
+androidx.versionedparcelable:versionedparcelable:1.1.0
+androidx.fragment:fragment:1.1.0
+androidx.customview:customview:1.0.0
+androidx.interpolator:interpolator:1.0.0
+androidx.loader:loader:1.0.0
+androidx.activity:activity:1.0.0
+androidx.drawerlayout:drawerlayout:1.0.0
+androidx.collection:collection:1.1.0
+androidx.viewpager:viewpager:1.0.0
+androidx.localbroadcastmanager:localbroadcastmanager:1.0.0
+androidx.arch.core:core-common:2.1.0
+androidx.savedstate:savedstate:1.0.0
+androidx.annotation:annotation:1.1.0
+androidx.lifecycle:lifecycle-common:2.1.0
+androidx.appcompat:appcompat-resources:1.1.0
+androidx.lifecycle:lifecycle-livedata:2.0.0
+androidx.lifecycle:lifecycle-viewmodel:2.1.0
+androidx.lifecycle:lifecycle-livedata-core:2.0.0
+androidx.arch.core:core-runtime:2.0.0
+androidx.cursoradapter:cursoradapter:1.0.0
+androidx.vectordrawable:vectordrawable-animated:1.1.0
+androidx.lifecycle:lifecycle-runtime:2.1.0
+androidx.vectordrawable:vectordrawable:1.1.0
+
+    */
+
+
+
+    implementation 'com.intentfilter:android-permissions:1.0.43'
 }
